@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/rock-paper-scissors/app.js" defer></script>
+    <link rel="stylesheet" href="/rock-paper-scissors/styles.css" />
+  </head>
+  <body>
+    <div id="form">
+      <h1>Rock Paper Scissors!</h1>
+      
+      <div id="container">
+        <label>Your Decision</label>
+        <input id="user-choice" name="user-choice" type="text" required />
+        <button onclick="checkUserInput()">Lock it In!</button>
+        <p id="result"></p>
+      </div>
+    </div>
+  </body>
+</html>

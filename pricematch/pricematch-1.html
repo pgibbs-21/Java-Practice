@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Price Difference Calculator</title>
+    <script src="/pricematch/pricematch.js"></script>
+    <link rel="stylesheet" href="/pricematch/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h2>Enter Prices to Calculate the Difference:</h2>
+
+      <label for="ourPrice">Our Price:</label>
+      <input type="number" id="ourPrice" />
+
+      <label for="competitorPrice">Competitor's Price:</label>
+      <input type="number" id="competitorPrice" />
+
+      <button onclick="calculatePriceDifference()">Calculate Difference</button>
+
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
